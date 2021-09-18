@@ -1,4 +1,4 @@
-import { Reducer } from 'redux';
+import { Reducer } from 'redux'; // eslint-disable-line import/no-extraneous-dependencies
 import { CounterAction, CounterActionType as Type } from './actions';
 
 export type CounterState = { count: number };
