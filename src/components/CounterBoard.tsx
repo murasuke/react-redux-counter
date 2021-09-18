@@ -27,7 +27,7 @@ const CounterBoard: VFC = () => {
           </Button>
         </div>
         <div className="fluid-button">
-          <Button fulid color="grey" onClick={() => dispatch(add(BULK_UNIT))}>
+          <Button fluid color="grey" onClick={() => dispatch(add(BULK_UNIT))}>
             +{BULK_UNIT}
           </Button>
         </div>

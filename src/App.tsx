@@ -5,7 +5,7 @@ import CounterBoard from './components/CounterBoard';
 
 import './styles.css';
 
-export default function App() {
+const App: VFC = () => {
   return (
     <div className="App">
       <header>
@@ -15,4 +15,6 @@ export default function App() {
       </header>
     </div>
   );
-}
+};
+
+export default App;
