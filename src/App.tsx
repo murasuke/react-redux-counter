@@ -9,9 +9,9 @@ const App: VFC = () => (
   <div className="App">
     <header>
       <h1>ビーズカウンター</h1>
-      <CounterBoard />
-      <ColorfulBeads />
     </header>
+    <CounterBoard />
+    <ColorfulBeads />
   </div>
 );
 

@@ -12,7 +12,7 @@ const CounterBoard: VFC = () => {
   const dispatch = useDispatch();
 
   return (
-    <Card>
+    <Card className="centered">
       <Statistic>
         <Statistic.Label>count</Statistic.Label>
         <Statistic.Value>{count}</Statistic.Value>
@@ -22,7 +22,7 @@ const CounterBoard: VFC = () => {
           <Button color="red" onClick={() => dispatch(decrement())}>
             -1
           </Button>
-          <Button color="red" onClick={() => dispatch(increment())}>
+          <Button color="green" onClick={() => dispatch(increment())}>
             1
           </Button>
         </div>
